@@ -1,3 +1,6 @@
 name: James Washington
 markdown: kramdown
-permalink: /:title
+permalink: /blog/:year/:month/:day/:title
+sass:
+  style: compressed
+  sass_dir: _sass
