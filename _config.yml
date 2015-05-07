@@ -1,6 +1,9 @@
-name: James Washington
+title: James Washington
+tagline: "I get computers putin'."
+description: 'Portfolio and some other stuff.'
+url: http://jameswashington.me
+permalink: /blog/:year/:month/:day/:title
 markdown: kramdown
-permalink: /blog/:title
 sass:
   style: compressed
   sass_dir: _sass
