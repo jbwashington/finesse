@@ -1,6 +1,6 @@
 ---
 layout: post
-title: startup ideas that could make a positive difference in the world
+title: startup ideas
 ---
 
 1.  Low-cost community-controlled security for countries with high crime and corruption, based on mesh network of solar powered raspberry pis that feed to public site, with no central point of failure, with anonymous reporting.
