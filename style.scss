@@ -1,9 +1,10 @@
 ---
 ---
-
-//
-// IMPORTS
-//
+/////////////
+// ======= //
+// IMPORTS //
+// ======= //
+/////////////
 
 @import "reset";
 @import "variables";
@@ -11,9 +12,9 @@
 
 // Syntax highlighting @import is at the bottom of this file
 
-/**************/
-/* BASE RULES */
-/**************/
+////////////////
+// BASE RULES //
+////////////////
 
 html {
   font-size: 100%;
@@ -21,7 +22,7 @@ html {
 
 body {
   background: $gray;
-  font: 18px/1.4 $header-font;
+  font: 1rem $body-font;
   color: $white;
 }
 
