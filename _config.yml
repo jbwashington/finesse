@@ -19,7 +19,7 @@ avatar: https://avatars0.githubusercontent.com/u/3478078?v=3&s=460
 footer-links:
   dribbble:
   email: jbwashington@gmail.com
-  facebook:
+  facebook: jizzames
   flickr:
   github: jbwashington
   instagram: j1zz4m35
@@ -96,7 +96,6 @@ gems:
   - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
   - jekyll-redirect-from # redirect from broken link to fixed
   - jekyll-feed # create atom feed 
-  - jemoji # use emoji within any Jekyll page or post
 
 # Exclude these files from your production _site
 exclude:

@@ -1,29 +1,58 @@
+///////////////
+// ========= //
+// VARIABLES //
+// ========= //
+///////////////
 
-//
-// VARIABLES
-//
-
+/////////
 // Colors
-// ======
-$blue: #4183C4;
+/////////
 
-// Grays
-// =====
-$black: #000;
-$darkerGray: #222;
-$darkGray: #333;
-$gray: #666;
-$lightGray: #eee;
-$white: #fff;
+$neon            : #BBFF00;
 
-// Font stacks
-// ===========
-$helvetica: Helvetica, Arial, sans-serif;
-$helveticaNeue: "Helvetica Neue", Helvetica, Arial, sans-serif;
-$georgia: Georgia, serif;
+$brand-primary   : $neon;
+$brand-secondary : $neon;
+$brand-tertiary  : $neon;
 
-// Mobile breakpoints
-// ==================
+////////////////////
+// Primary Colors //
+////////////////////
+
+$black      : #000;
+$darkerGray : #222;
+$darkGray   : #333;
+$gray       : #9C9298;
+$lightGray  : #EEE;
+$white      : #FFF;
+
+
+
+////////////////////////////////
+// Styling Color Abstractions //
+////////////////////////////////
+
+$bg-color     : $gray;
+$body-color   : $white;
+$header-color : $neon;
+
+
+
+/////////////////
+// Font stacks //
+/////////////////
+
+@import url(https://fonts.googleapis.com/css?family=Lato:900|Roboto);$helvetica: Helvetica, Arial, sans-serif;
+
+$Lato        : "Lato", Helvetica, sans-serif;
+$Roboto      : "Roboto", Arial, sans-serif;
+
+$body-font   : $Roboto;
+$header-font : $Lato;
+
+////////////////////////
+// Mobile breakpoints //
+////////////////////////
+
 @mixin mobile {
   @media screen and (max-width: 640px) {
     @content;
