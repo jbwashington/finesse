@@ -7,9 +7,7 @@
 /////////
 // Colors
 /////////
-
 $neon            : #BBFF00;
-
 $brand-primary   : $neon;
 $brand-secondary : $neon;
 $brand-tertiary  : $neon;
@@ -17,7 +15,6 @@ $brand-tertiary  : $neon;
 ////////////////////
 // Primary Colors //
 ////////////////////
-
 $black      : #000;
 $darkerGray : #222;
 $darkGray   : #333;
@@ -30,7 +27,6 @@ $white      : #FFF;
 ////////////////////////////////
 // Styling Color Abstractions //
 ////////////////////////////////
-
 $bg-color     : $gray;
 $body-color   : $white;
 $header-color : $neon;
@@ -40,19 +36,15 @@ $header-color : $neon;
 /////////////////
 // Font stacks //
 /////////////////
-
 @import url(https://fonts.googleapis.com/css?family=Lato:900|Roboto);$helvetica: Helvetica, Arial, sans-serif;
-
 $Lato        : "Lato", Helvetica, sans-serif;
 $Roboto      : "Roboto", Arial, sans-serif;
-
 $body-font   : $Roboto;
 $header-font : $Lato;
 
 ////////////////////////
 // Mobile breakpoints //
 ////////////////////////
-
 @mixin mobile {
   @media screen and (max-width: 640px) {
     @content;
