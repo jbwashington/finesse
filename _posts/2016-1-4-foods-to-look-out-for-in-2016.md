@@ -1,5 +1,7 @@
-# 3 Foods to look out for in 2016
-
+---
+layout: post
+title: 3 Foods to Look Out For in 2016
+---
 There have been some pretty solid food additions to my diet in 2016, but there are 3 that stand out particularly:
 
   - Heavy Whipping Cream
