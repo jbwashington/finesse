@@ -103,6 +103,9 @@ ul ul, ol ul {
   list-style-type: circle;
 }
 
+li {
+  font-size: $body-size;
+}
 em, i {
   font-style: italic;
 }
