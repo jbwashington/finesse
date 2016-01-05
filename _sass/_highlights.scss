@@ -1,23 +1,54 @@
+@import url(https://fonts.googleapis.com/css?family=Inconsolata);
+$inconsolata : 'Inconsolata','Courier', monospace;
+
+////////////////////
+// Molokai Colors //
+////////////////////
+
+$molokai-background: #1B1D1E;
+$near-black: #080800;
+$near-white: #F8F8F0;
+$off-white: #C4BE89;
+$cyan: #66D9EF;
+$deep-blue: #13354A;
+$blue-gray: #293739;
+$light-blue: #7E8E91;
+$green: #A6E22E;
+$pale-yellow: #E6DB74;
+$orange: #FD971F;
+$red: #FF0000;
+$magenta: #F92672;
+
+
+// Molokai Grays
+$gray-darker: #232526;
+$gray-dark: #272822;
+$gray: #75715E;
+$gray-light: #808080;
+$gray-lighter: #BCBCBC;
 
 .highlight {
-  background-color: #efefef;
+  background-color: $darkGray;
   padding: 7px 7px 7px 10px;
-  border: 1px solid #ddd;
+  // border: 1px solid $neon;
   -moz-box-shadow: 3px 3px rgba(0,0,0,0.1);
   -webkit-box-shadow: 3px 3px rgba(0,0,0,0.1);
   box-shadow: 3px 3px rgba(0,0,0,0.1);
   margin: 20px 0 20px 0;
   overflow: scroll;
+  border-radius: .7rem;
+  padding: 1rem 1rem 1rem 1rem;
 }
 
 code {
-  font-family:'Bitstream Vera Sans Mono','Courier', monospace;
+  font-family: $inconsolata;
+  font-size: .7rem;
 }
 
 .highlight .c { color: #586E75 } /* Comment */
 .highlight .err { color: #93A1A1 } /* Error */
 .highlight .g { color: #93A1A1 } /* Generic */
-.highlight .k { color: #859900 } /* Keyword */
+.highlight .k { color: $neon } /* Keyword */
 .highlight .l { color: #93A1A1 } /* Literal */
 .highlight .n { color: #93A1A1 } /* Name */
 .highlight .o { color: #859900 } /* Operator */

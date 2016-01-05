@@ -9,11 +9,17 @@ Me too, and this is the fastest way I've seen thus far.  This is how you do it.
 
 1. Download and install [youtube-dl] by copying and pasting this into terminal:
 
-```
+```bash
 sudo wget https://yt-dl.org/downloads/latest/youtube-dl -O /usr/local/bin/youtube-dl && sudo chmod a+rx /usr/local/bin/youtube-dl
 ```
 
-2. Put this in your .bash_aliases file.  If you don't already have it, drop it off in the home folder with ```touch ~/.bash_aliases``` then open it with whatever text editor you prefer and add this:
+2. Put this in your .bash_aliases file.  If you don't already have it, drop it off in the home folder with the following command:
+
+```bash
+touch ~/.bash_aliases
+```
+
+Open it with whatever text editor you prefer and add this:
 
 ```bash
 function play {
@@ -51,5 +57,3 @@ function mp3 {
                --audio-quality=1 "$*"
 }
 ```
-
-ex: ```mp3 usher - let it burn```
