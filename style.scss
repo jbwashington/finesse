@@ -17,14 +17,30 @@
 // BASE RULES //
 ////////////////
 
-html {
+* {
+  margin: 0;
+}
+
+html, body {
   font-size: $body-size;
+  height: 100%;
 }
 
 body {
   background: $gray;
   font: 1rem $body-font;
   color: $white;
+
+
+}
+.page-wrap {
+  min-height: 100%;
+  // equal to footer height
+  margin-bottom: $footer-height;
+}
+.page-wrap:after {
+  content: "";
+  display: block;
 }
 
 .container {
@@ -284,26 +300,21 @@ nav {
   }
 }
 
-.wrapper-footer {
-  margin-top: 3rem;
-  background-color: $black;
-  width: 100%;
-  height: auto !important;
+.site-footer, .page-wrap:after {
+  // .push must be same height as footer
+  height: $footer-height;
 }
 
-footer {
-  padding: 3rem 3rem 3rem 3rem;
-  text-align: center;
+.site-footer {
+  background-color: $black;
 }
 
 .highlight {
-    background-color: $darkGray;
+  background-color: $darkGray;
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 @import "highlights";
 @import "svg-icons";
-
-
 

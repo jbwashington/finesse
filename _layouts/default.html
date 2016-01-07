@@ -2,7 +2,7 @@
 <html>
   <head>
     <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
-
+    <link rel="shortcut icon" type="image/x-icon" href="{{ site.baseurl }}/favicon.ico?">
     {% include meta.html %}
 
     <!--[if lt IE 9]>
@@ -11,49 +11,45 @@
 
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
     <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
-
   </head>
 
   <body>
-    <div class="wrapper-masthead">
-      <div class="container">
-        <header class="masthead clearfix">
-          <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" /></a>
+    <div class="page-wrap">
+      <div class="wrapper-masthead">
+        <div class="container">
+          <header class="masthead clearfix">
+            <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" /></a>
 
-          <div class="site-info">
-            <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
-            <p class="site-description">{{ site.description }}</p>
-          </div>
+            <div class="site-info">
+              <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
+              <p class="site-description">{{ site.description }}</p>
+            </div>
 
-          <nav>
-            <a href="{{ site.baseurl }}/about">About</a>
-            <a href="{{ site.baseurl }}/cv">CV</a>
-          </nav>
-        </header>
+            <nav>
+              <a href="{{ site.baseurl }}/about">About</a>
+              <a href="{{ site.baseurl }}/cv">CV</a>
+            </nav>
+          </header>
+        </div>
+      </div>
+
+      <div id="main" role="main" class="container">
+        {{ content }}
       </div>
     </div>
 
-    <div id="main" role="main" class="container">
-      {{ content }}
-    </div>
-
-    <div class="wrapper-footer">
-      <div class="container">
-        <footer class="footer">
-          <div class="row">
-              <div class="col-md-12">
-                {% include svg-icons.html %}
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-md-12">
-                <p> James Washington. 2016.  Ballin'.
-                </div>
-              </div>
-            </footer>
+    <footer class="site-footer">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-12">
+            <center>
+              {% include svg-icons.html %}
+            </center>
           </div>
         </div>
+      </div>
+    </footer>
 
-        {% include analytics.html %}
-      </body>
-    </html>
+      {% include analytics.html %}
+    </body>
+  </html>
