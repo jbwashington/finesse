@@ -191,20 +191,20 @@ img {
 }
 
 .site-avatar {
-  float: left;
-  width: 70px;
-  height: 70px;
-  margin-right: 15px;
+  // float: left;
+  // width: 70px;
+  // height: 70px;
+  // margin-right: 15px;
 
-  @include mobile {
-    float: none;
-    display: block;
-    margin: 0 auto;
-  }
+  // @include mobile {
+  //   float: left;
+  //   display: block;
+  //   margin: 0 auto;
+  // }
 
-  img {
-    border-radius: 5px;
-  }
+  // img {
+  //   border-radius: 5px;
+  // }
 }
 
 .site-info {
