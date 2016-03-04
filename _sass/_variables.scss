@@ -20,14 +20,14 @@ $darkerGray : #222;
 $darkGray   : #333;
 $gray       : #9C9298;
 $lightGray  : #EEE;
-$white      : #FFF;
+$white      : #F7F7F9;
 
 
 
 ////////////////////////////////
 // Styling Color Abstractions //
 ////////////////////////////////
-$bg-color     : $gray;
+$bg-color     : $white;
 $body-color   : $white;
 $header-color : $neon;
 
@@ -52,18 +52,19 @@ $h4-size : 1.8rem;
 $h5-size : 2rem;
 $h6-size : 2rem;
 $h7-size : 2rem;
-$body-size : .8rem;
-$code-size : 2rem;
+$body-size : 1.2rem;
+$code-size : .8rem;
 $li-size : $body-size;
 $ul-size : $body-size;
 $site-name-size : 3rem;
 $site-description-size : 1.6rem;
-$nav-size : .7rem;
+$nav-size : 1rem;
 
 ///////////////////
 // Element Sizes //
 ///////////////////
 $footer-height : 12rem;
+
 ////////////////////////
 // Mobile breakpoints //
 ////////////////////////

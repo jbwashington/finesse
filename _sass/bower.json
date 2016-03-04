@@ -1,0 +1,31 @@
+{
+  "name": "jameswashington.me",
+  "homepage": "https://github.com/jbwashington/jbwashington.github.io",
+  "authors": [
+    "James Washington <jbwashington@gmail.com>"
+  ],
+  "description": "Personal blog and portfolio for James Washington",
+  "main": "index.html",
+  "moduleType": [
+    "node"
+  ],
+  "keywords": [
+    "bootstrap4",
+    "responsive"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap-sass": "~3.3.4",
+    "particles.js": "^2.0.0",
+    "bootstrap": "v4.0.0-alpha.2",
+    "font-awesome": "fontawesome#^4.5.0"
+  }
+}
