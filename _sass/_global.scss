@@ -1,3 +1,17 @@
 ////////////////
 // GLOBALS    //
 ////////////////
+
+html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  border:.6rem solid white;
+  width:100%;
+  height:100%;
+  display:block;
+  overflow:hidden;
+  background: darkgray;
+}
