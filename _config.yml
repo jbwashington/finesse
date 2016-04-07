@@ -9,4 +9,4 @@ twitter_username: jbw014
 github_username:  jbwashington
 
 # BUILD SETTINGS
-exclude: ["bower_components", "node_modules", "bower.json", "package.json"]
+exclude: ["gulpfile.js", "bower_components", "node_modules", "bower.json", "package.json"]
