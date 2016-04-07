@@ -4,3 +4,4 @@ _site
 .jekyll-metadata
 /bower_components/
 /vendor/
+Gruntfile.coffee
