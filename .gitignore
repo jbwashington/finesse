@@ -1,7 +1,3 @@
-/node_modules/
 _site
 .sass-cache
 .jekyll-metadata
-/bower_components/
-/vendor/
-Gruntfile.coffee
