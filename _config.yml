@@ -9,5 +9,8 @@ twitter_username: jbw014
 github_username:  jbwashington
 google_analytics: 'UA-62702125-1'
 
-# BUILD SETTINGS
+  # URL of your avatar or profile pic (you could use your GitHub profile pic)
+avatar: "https://avatars0.githubusercontent.com/u/3478078?v=3&s=460"
+
+  # BUILD SETTINGS
 exclude: ["gulpfile.js", "bower_components", "node_modules", "bower.json", "package.json"]
