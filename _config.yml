@@ -3,7 +3,7 @@ title: James Washington
 email: jbwashington@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Official fan page for James Washington.
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/blog" # the subpath of your site, e.g. /blog
 url: "https://jameswashington.me" # the base hostname & protocol for your site
 twitter_username: jbw014
 github_username:  jbwashington

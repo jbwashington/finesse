@@ -10,9 +10,16 @@ var messages = {
   jekyllBuild: '<span style="color: grey">Running:</span> $ jekyll build'
 };
 
+var options = {
+  remoteUrl: "git@github.com:jbwashington/jbwashington.github.io.git",
+  branch: "master",
+  message: "Update [timestamp]"
+};
+
 /**
  * Build the Jekyll Site
  */
+
 gulp.task('jekyll-build', function (done) {
   browserSync.notify(messages.jekyllBuild);
   return cp.spawn( jekyll , ['build'], {stdio: 'inherit'})
@@ -66,7 +73,7 @@ gulp.task('watch', function () {
  */
 gulp.task("deploy", ["jekyll-build"], function () {
     return gulp.src("./_site/**/*")
-        .pipe(deploy());
+        .pipe(deploy(options));
 });
 
 /**
